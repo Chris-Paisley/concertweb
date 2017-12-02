@@ -1,0 +1,400 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<script type="text/javascript" src="/JS/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="/JS/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="/style/ticket.css">
+    <link rel="stylesheet" href="/style/jquery-ui.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Sonsie+One" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Ticket Form</title>
+</head>
+
+<body>
+
+    <header>
+	   
+	</header>
+	    
+	
+    <div class='top'>
+        <div class="nav bar">
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#venues">Venues</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    
+	    <img src="/images/concert.jpg">
+	    <h1 class='logo luck'>Lucky Man </br> <div class='marquee'>Marquee theater </div></h1>
+	</div> <!-- End .top div -->
+	
+	<div id='about'class='about'>
+	    <h2>History</h2>
+	    <p class='aboutText'>Lucky Man Concerts was formed in 2001 and promotes over 150 concerts per 
+	        year in Arizona and New Mexico. 
+	        The Marquee Theatre is located 1 mile north of Arizona State University in Tempe, AZ.</p>
+	    <p class='aboutText'>In 2017, Lucky Man Concerts and The Marquee Theatre celebrate their 14th Anniversary.
+            Past events at the Marquee Theatre include Prince, Adele, Katy Perry, Nine Inch Nails, and Muse to name a few.</p>
+	</div> <!-- End of .about div -->
+	
+	
+	<!-- Start of events-->
+    <div id='events' class='events'>
+        <h2 class='eventsHead'>This months events</h2>
+        <div class='eventContainer'>
+            <div class='morrisseyPic'>
+                <img src='https://i.ticketweb.com/i/00/07/38/01/29_Original.jpg?v=18'>
+            </div>
+                <h4 id='who1'>Morrissey</h4>
+                <p id='where1'><i>Marquee Theatre</i></p>
+                <p id='when1'>Thu Nov 16, 17 8:30 pm (Doors: 7:00 pm )</p>
+                <p id='age1'>All Ages</p>
+                <p class='priceEach'>$27.00</p>
+                <button class='sold'>Sold Out</button>
+        </div>
+        <div class='eventContainer'>
+            <div class='morrisseyPic'>
+                <img src='https://daks2k3a4ib2z.cloudfront.net/57f2dd18493786c030bd89a0/5989e942e1f54f0001eaf88a_IP_ROTS_ADMAT_WithDesMoines.jpg'>
+            </div>
+            <h4 class='who'>I Prevail</h4>
+            <h3 class='with'>with special guests We Came As Romans, The Word Alive, Escape the Fate</h3>
+            <p class='where'><i>Marquee Theatre</i></p>
+            <p class='when'>Fri Nov 17, 17 6:45 pm (Doors: 6:00 pm )</p>
+            <p class='age'>All Ages</p>
+            <p class='priceEach'>$25.00</p>
+            <button class='notSold'>Buy Tickets</button>
+        </div>
+        <div class='eventContainer'>
+            <div class='morrisseyPic'>
+                <img src='https://i.ticketweb.com/i/00/07/37/24/09_Original.jpg?v=6'>
+            </div>
+            <h4 class='who'>Iration: Intergalactic Tour</h4>
+            <h3 class='with'>with Katastro, Fortunate Youth, Through the Roots</h3>
+            <p class='where'><i>The Van Buren</i></p>
+            <p class='when'>Fri Nov 17, 17 7:00 pm (Doors: 5:30 pm )</p>
+            <p class='age'>13+</p>
+            <p class='priceEach'>$21.50</p>
+            <button class='notSold'>Buy Tickets</button>
+        </div>
+        <div class='eventContainer'>
+            <div class='morrisseyPic'>
+                <img src='https://i2.wp.com/www.metalinjection.net/wp-content/uploads/2017/07/periphery-animals-as-leaders-routing.jpg'>
+            </div>
+            <h4 class='who'>Animals As Leaders, Periphery</h4>
+            <h3 class='with'>with Astronoid</h3>
+            <p class='where'><i>Marquee Theatre</i></p>
+            <p class='when'>Tue Nov 21, 17 7:00 pm (Doors: 5:30 pm )</p>
+            <p class='age'>All Ages</p>
+            <p class='priceEach'>$13.00</p>
+            <button class='notSold'>Buy Tickets</button>
+        </div>
+        <div class='arrowContainer'>
+            <p class='all'>Show all events</p>
+            <input class='arrow' type="image" name="arrowDown" src='https://d30y9cdsu7xlg0.cloudfront.net/png/10897-200.png'/>  
+        </div>
+        <div class='extraDates'  style='display: none'>
+            <div class='eventContainer'>
+                <div class='morrisseyPic'>
+                    <img src='/images/theused.jpg'>
+                </div>
+                    <h4 class='who'>The Used</h4>
+                    <h3 class='with'>With Glassjaw</h3>
+                    <p class='where'><i>The Van Buren</i></p>
+                    <p class='when'>Tue Nov 21, 17 7:30 pm (Doors: 6:00 pm )</p>
+                    <p class='age'>13+</p>
+                    <p class='priceEach'>$25.50</p>
+                    <button class='notSold'>Buy Tickets</button>
+            </div>
+            <div class='eventContainer'>
+                <div class='morrisseyPic'>
+                    <img src='/images/authority0.jpg'>
+                </div>
+                <h4 class='who'>Authority Zero </h4>
+                <h3 class='with'>with Madd Dog Tannen, Contradiktion, Not Confined, FOL</h3>
+                <p class='where'><i>Marquee Theatre</i></p>
+                <p class='when'>Wed Nov 22, 17 6:30 pm (Doors: 6:00 pm )</p>
+                <p class='age'>All ages</p>
+                <p class='priceEach'>$17.00</p>
+                <button class='notSold'>Buy Tickets</button>
+            </div>
+            <div class='eventContainer'>
+                <div class='morrisseyPic'>
+                    <img src='https://music.mxdwn.com/wp-content/uploads/2017/08/GWAR-FALL-ADMAT2017fallLegend.jpg'>
+                </div>
+                <h4 class='who'>Gwar</h4>
+                <h3 class='with'>with Ghoul, He Is Legend, U.S. Bastards</h3>
+                <p class='where'><i>Marquee Theatre</i></p>
+                <p class='when'>Thu Nov 23, 17 7:30 pm (Doors: 6:00 pm )</p>
+                <p class='age'>All ages</p>
+                <p class='priceEach'>$20.00</p>
+                <button class='notSold'>Buy Tickets</button>
+            </div>
+            <div class='eventContainer'>
+                <div class='morrisseyPic'>
+                    <img src='https://image-ticketfly.imgix.net/00/02/69/23/28-og.jpg?w=300&h=450'>
+                </div>
+                <h4 class='who'>Meat Puppets</h4>
+                <h3 class='with'>with Porcupine</h3>
+                <p class='where'><i>Crescent Ballroom</i></p>
+                <p class='when'>Fri Nov 24, 17 8:30 pm (Doors: 7:30 pm )</p>
+                <p class='age'>21+</p>
+                <p class='priceEach'>$15.50</p>
+                <button class='notSold'>Buy Tickets</button>
+            </div>
+            <div class='eventContainer'>
+                <div class='morrisseyPic'>
+                    <img src='https://i.ticketweb.com/i/00/07/37/41/89_Original.jpg?v=5'>
+                </div>
+                <h4 class='who'>Say Anything</h4>
+                <h3 class='with'>with Dan Andriano, Backwards Dancer</h3>
+                <p class='where'><i>Crescent Ballroom</i></p>
+                <p class='when'>Sat Nov 25, 17 8:00 pm (Doors: 7:00 pm ) & Sun Nov 26, 17 7:30 pm (Doors: 6:30 pm )</p>
+                <p class='age'>16+</p>
+                <p class='priceEach'>$20.00</p>
+                <button class='notSold'>Buy Tickets</button>
+            </div>
+            <div class='eventContainer'>
+                <div class='morrisseyPic'>
+                    <img src='/images/molotov.png'>
+                </div>
+                <h4 class='who'>Molotov</h4>
+                <h3 class='with'></h3>
+                <p class='where'><i>Marquee Theatre</i></p>
+                <p class='when'>Sun Nov 26, 17 8:00 pm (Doors: 6:30 pm )</p>
+                <p class='age'>All ages</p>
+                <p class='priceEach'>$13.00</p>
+                <button class='notSold'>Buy Tickets</button>
+            </div>
+            <div class='eventContainer'>
+                <div class='morrisseyPic'>
+                    <img src='/images/new.jpg'>
+                </div>
+                <h4 class='who'>New Found Glory</h4>
+                <h3 class='with'>with The Ataris</h3>
+                <p class='where'><i>Crescent Ballroom</i></p>
+                <p class='when'>Tue Nov 28, 17 8:00 pm (Doors: 7:00 pm )</p>
+                <p class='age'>16+</p>
+                <p class='priceEach'>$24.50</p>
+                <button class='notSold'>Buy Tickets</button>
+            </div>
+            <div class='eventContainer'>
+                <div class='morrisseyPic'>
+                    <img src='/images/jack.jpeg'>
+                </div>
+                <h4 class='who'>Jack and Jack</h4>
+                <h3 class='with'>with Olivia O'Brien</h3>
+                <p class='where'><i>Marquee Theatre</i></p>
+                <p class='when'>Thu Nov 30, 17 7:00 pm (Doors: 6:00 pm )</p>
+                <p class='age'>All ages</p>
+                <p class='priceEach' value='18.00'>$18.00</p>
+                <button class='notSold'>Buy Tickets</button>
+            </div>
+        </div> <!-- End of .extraDates div -->
+        
+        <!-- modal for buying tickets-->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                
+            <div id='thanks'></div>
+            
+            <form>
+                <!-- Places the info of the band selected in the top of the form-->
+                <div class='thisW'>
+                    <h2 class='thisWho'></h2>
+                    <h5 class='thisWith'></h5>
+                    <p class='thisWhere'></p>
+                    <p class='thisWhen'></p>
+                    <p class='thisAge'></p>
+                    <p class='thisPrice'></p>
+                </div>
+                
+                <div id='mainForm'>
+                    <h2>Tickets:</h2>
+                    <label for='ticketNum'>General Admission: <b class='total'></b></label>
+                    
+                    <!-- # of tickets-->
+                    <select id='ticketNum'>
+                        <option selected="selected" value='1'>1</option>
+                        <option value='2'>2</option>
+                        <option value='3'>3</option>
+                        <option value='4'>4</option>
+                        <option value='5'>5</option>
+                        <option value='6'>6</option>
+                        <option value='7'>7</option>
+                        <option value='8'>8</option>
+                        <option value='9'>9</option>
+                        <option value='10'>10</option>
+                    </select></br>
+                    
+                    <!-- Delivery -->
+                    <h4>Delivery Method:</h4>
+                    <input type="radio" id='print' name="print" value='pHome'/>Print at home
+                    <input type="radio" id='willCall' name="print" value='will'/>Will Call</br>
+                    
+                    <!-- Start of Billing -->
+                    <h2>Billing info:</h2>
+                    <label for="fName">First Name:</label>
+                    <input type="text" id='fName' name="usersname"/>
+                    
+                    <label for="lName"> Last Name:</label>
+                    <input type="text" id='lName' name="usersname"/></br>
+                    
+                    <!-- Email-->
+                    <label for="email">Email:</label>
+                    <input type="text" id='email' name="emailAdd"/>
+                    
+                    <label for="conEmail">Confirm Email:</label>
+                    <input type="text" id='conEmail' name="emailAdd"/></br>
+                    
+                    <!-- Address-->
+                    <label for="add1">Address 1: </br>(Street number and name)</label></br>
+                    <input type="text" id='add1' class='useAdd' name="address1"/></br>
+                    
+                    <label for="add2">Address 2:</br>(Apartment number/suite/unit)</label></br>
+                    <input type="text" id='add2' class='useAdd' name="address2"/></br>
+                    
+                    <!-- City-->
+                    <label for="city">City:</label></br>
+                    <input type="text" id='city' name="usercity"/></br>
+                    
+                    <!-- Select state -->
+                    <div class="ui-widget">
+                        <label for="states">State:</label></br>
+                        <input type="text" id='states' name="states"/>
+                    </div>
+                    
+                    <!-- Countries-->
+                    <div class="ui-widget">
+                        <label for="countries">Country:</label></br>
+                        <input type="text" id='countries' name="countries"/>
+                    </div>
+                    
+                    <!-- Zip-->
+                    <label for="zip">Zip Code:</label></br>
+                    <input type="text" id='zip' name="zCode"/></br>
+                    
+                    <!-- Start of card info-->
+                    <h2 class='cards'>Card Info:</h2></br>
+                    <div id='cInfo'>
+                        
+                        <!-- Card type -->
+                        <label for="">Card type</label>
+                        <select>
+                            <option>American Express</option>
+                            <option>Visa</option>
+                            <option>MasterCard</option>
+                            <option>Discover</option>
+                        </select>
+                        
+                        <!-- Card valid-->
+                        <label for="">Vaild untill:</label>
+                        <select>
+                            <option>Jan</option>
+                            <option>Feb</option>
+                            <option>Mar</option>
+                            <option>Apr</option>
+                            <option>May</option>
+                            <option>Jun</option>
+                            <option>Jul</option>
+                            <option>Aug</option>
+                            <option>Sep</option>
+                            <option>Oct</option>
+                            <option>Nov</option>
+                            <option>Dec</option>
+                        </select>
+                        <select>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                        </select></br>
+                        
+                        <!-- Card # -->
+                        <label for="credit">Credit card number:</label>
+                        <input type="text" id='credit' name="credit"/>
+                        
+                        <!--CVV -->
+                        <label for="cvv">Cvv code:</label>
+                        <input type="text" id='cvv' name="cvv"/></br>
+                    </div>
+                    
+                    <!-- Button to go to preview-->
+                    <button id='checkout'>Checkout</button></br>
+                </div> <!-- End mainForm div -->
+            </form>
+            
+            <div id='preview'></div>
+                
+            </div> <!--End of modal-content div-->
+        </div> <!--End of main modal div -->
+    </div> <!-- End of events div-->
+    
+    <!-- All venues and their websites-->   
+    
+    <div id='venues' class='venues'>
+        <h2 class='conHead'>Venues</h2>
+        <h3 class='cityVen'>Phoenix</h3>
+        <p class='venLink'><a href='http://www.celebritytheatre.com'>Celebrity Theatre</a></br>
+        <a href='http://www.clubredrocks.com'>Club Red</a></br>
+        <a href='http://comericatheatre.com'>Comerica Theatre</a></br>
+        <a href='http://www.crescentphx.com'>Crescent Ballroom</a></br>
+        <a href='http://www.crescentphx.com'>Joes Grotto</a></br>
+        <a href='http://www.lastexitlive.com'>Last Exit Inn</a></br>
+        <a href='http://www.marqueetheatreaz.com'>Marquee Theatre</a></br>
+        <a href='http://mesaamp.com'>Mesa Amphitheatre</a></br>
+        <a href='http://www.mesaartscenter.com'>Mesa Art Center</a></br>
+        <a href='http://orpheumtheatrephx.com'>Orpheum Theatre</a></br>
+        <a href='http://www.pubrocklive.com'>Pub Rock Live</a></br>
+        <a href='http://rawhide.com'>Rawhide</a></br>
+        <a href='http://www.therebellounge.com'>Rebel Lounge</a></br>
+        <a href='http://www.rhythmroom.com'>Rhythm Room</a></br>
+        <a href='http://valleybarphx.com'>Valley Bar</a></br>
+        <a href='http://thevanburenphx.com'>Van Buren </a></p>
+        
+        <h3 class='cityVen'>Tucson</h3>
+        <p class='venLink'>
+            <a href='http://hotelcongress.com'>Club Congress</a></br>
+            <a href='http://foxtucson.com'>Fox Theatre</a></br>
+            <a href='http://www.rialtotheatre.com'>Rialto Theatre</a>
+        </p>
+        
+        <h3 class='cityVen'>Flagstaff</h3>
+        <p class='venLink'>
+            <a href='http://www.orpheumflagstaff.com'>Orpheum Theatre</a>                
+        </p>
+    </div><!-- End of venues div-->
+    
+    <!-- Contact info-->
+    
+    <div id='contact' class='contact'>
+        <h2 class='conHead'>Contact</h2>
+        <p class='address'>730 N. Mill Ave. Tempe, AZ 85281</p>
+        <p>(480) 829-1300</p>
+        <p class='hours'><b>BOX OFFICE HOURS:</b></br>Monday- Friday from noon-6pm</br>
+            Saturday-Sunday from 3pm-when show starts <i>(Only on days performances are schedualed)</i></p>
+            
+        <div class='iconCon'>
+            <div class='iconA'>
+                <a href='https://www.facebook.com/LuckymanConcerts'><img class='icons' src='/Social Media Icons/Facebook.png'></a>
+                <a href='https://twitter.com/Luckymanshows'><img class='icons' src='/Social Media Icons/Twitter.png'></a>
+                <a href='https://www.instagram.com/luckymanshows/'><img class='icons' src='/Social Media Icons/Instagram.png'></a>
+                <a href='https://www.snapchat.com/add/luckymanshows'><img class='icons' src='/Social Media Icons/Snapchat.png'></a>
+            </div>  <!--End of iconA div -->  
+        </div> <!-- End of iconCon div -->
+    </div> <!-- End of contact div-->
+    
+    <script src="/JS/concert.js"></script>
+    <script type="text/javascript" src="/JS/country.js"></script>
+    <script type="text/javascript" src="/JS/state.js"></script>
+    
+    <footer>&copy; 2017 Chris Paisley. All rights reserved.</footer>    
+</body>
+</html>
