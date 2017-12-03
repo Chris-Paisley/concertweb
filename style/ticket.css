@@ -2,7 +2,7 @@ body {
   height: 100%;
     margin: 0;
     padding: 0;
-    
+
 }
 top {
     position: relative;
@@ -15,14 +15,14 @@ img {
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
-   
-   
+
+
 }
 
 .logo {
-    top: 50%; 
-    left: 0; 
-    width: 100%; 
+    top: 50%;
+    left: 0;
+    width: 100%;
     position: absolute;
     text-align: center;
     font-family: 'Sonsie One', cursive;
@@ -32,13 +32,13 @@ img {
 .nav ul{
     list-style: none;
     margin-bottom: -25px;
-    
-    
+
+
 }
 .nav li {
     font-family: 'Sonsie One', cursive;
-    
-    
+
+
 }
 .nav a{
     text-decoration: none;
@@ -55,7 +55,7 @@ img {
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
-    
+
 }
 .modal {
     display: none;
@@ -82,7 +82,7 @@ form input, form select{
     padding: 10px;
     padding-bottom: 10%;
     border: 1px solid #888;
-    width: 90%; 
+    width: 90%;
 }
 .close {
     color: #aaa;
@@ -148,12 +148,12 @@ form input, form select{
     width: 50%;
 }
 .eventContainer {
-    
+
     width: 100%;
     border-bottom: black solid 1px;
     overflow: hidden;
-    
-    
+
+
 }
 .thisW {
     border-bottom: 1px solid black;
@@ -161,7 +161,7 @@ form input, form select{
 }
 .thisWhere {
     font-style: italic;
-    
+
 }
 .thisAge {
     color: green;
@@ -173,8 +173,8 @@ form input, form select{
     margin-right: 5%;
     float: left;
     display: block;
-    
-    
+
+
 }
 
 .eventsHead {
@@ -200,7 +200,7 @@ form input, form select{
     color: white;
     font-size: 16px;
     float: right;
-    
+
 }
 .notSold {
     background-color: #6fb5e5;
@@ -222,8 +222,8 @@ form input, form select{
     margin-left: 48%;
     margin-right: 20%;
     margin-top: -10px;
-    
-    
+
+
 }
 .arrow:hover {
     background-color: lightgrey;
@@ -238,14 +238,14 @@ form input, form select{
 }
 .contact, .venues {
     text-align: center;
-    
+
     padding-right: 10%;
     padding-left: 10%;
-    
+
     margin-bottom: -20px;
     color: white;
     background-color: #1e1e1d;
-    
+
 }
 .contact {
     padding-top: 10px;
@@ -260,7 +260,7 @@ form input, form select{
 }
 .venLink a:visited {
     color: #f9f9ac;
-    
+
 }
 .sticky {
   position: fixed;
@@ -269,7 +269,7 @@ form input, form select{
   top: 0;
   z-index: 100;
   border-top: 0;
-  
+
 }
 
 .conHead {
@@ -281,7 +281,7 @@ form input, form select{
 .iconCon {
   width: 100%;
   margin-top: 5%;
-  
+
 }
 
 .icons {
@@ -290,7 +290,7 @@ form input, form select{
    border-radius: 20px;
    display: inline-block;
    position: relative;
-   
+
 }
 
 .icons:hover {
@@ -301,10 +301,18 @@ form input, form select{
 }
 .lineEq {
     border-bottom: solid black 1px;
-    
+
 }
 .priceRight {
     text-align: right;
+}
+#saveInfo {
+    text-align: right;
+    margin-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
 }
 
 footer {
